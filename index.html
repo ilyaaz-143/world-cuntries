@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Where in the world?</h1>
+        <span class="modes"><i class="fas fa-moon"></i>  Dark Mode</span>
+    </header>
+    <div class="search">
+        <div class="contry">
+            <span id="span"><i class="fas fa-search"></i></span>
+        <input class="con" type="text" aria-label="noma" aria-labelledby="ilya" id="input" placeholder="Search for a country...">
+    </div>
+    <div class="filter">
+        <select name="" id="region" aria-placeholder="filter by region">
+        <option value="" selected disabled>filter by region</option>
+        <option value="All">All</option>
+        <option value="Africa">Africa</option>
+        <option value="America">America</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+        </select>
+    </div>
+    </div>
+    
+    <div class="display-contries">
+    </div>
+    <div class="display_country">
+        <button class="back"><i class="fas fa-arrow-left"></i> back</button> 
+        <div class="show">   
+        <div id="flag">
+            
+        </div>
+        <div id="above">
+            <h2 id="name"></h2>
+            <div class="info">
+                <p class="nat">Native Name: </p>
+                <p class="top">Top Level Domain: </p>
+                <p class="pop">Population: </p>
+                <p class="cur">Currencies: </p>
+                <p class="reg">Region: </p>
+                <p class="lan">Language: </p>
+                <p class="sub">Sub region: </p>
+                <p class="cap">Capital: </p>
+            </div>
+            <div class="border">
+                <h4>Border countries:</h4>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
